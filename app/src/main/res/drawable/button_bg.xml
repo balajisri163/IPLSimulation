@@ -3,9 +3,14 @@
     android:shape="rectangle"
     android:innerRadius="17dp">
     <gradient
-        android:startColor="@color/header_start"
-        android:endColor="@color/header_end"
+        android:startColor="@color/button_orange_start"
+        android:centerColor="@color/button_orange_center"
+        android:endColor="@color/button_orange_end"
         android:angle="180"
         android:type="linear"
+        android:centerX="20%"
+        android:centerY="20%"
         android:gradientRadius="86dp" />
+    <corners
+        android:radius="10dp"/>
 </shape>
